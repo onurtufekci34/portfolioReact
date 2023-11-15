@@ -6,45 +6,45 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Basic E-Commerce",
+    title: "Kieler Immobilie",
     description:
-      "A basic e-commerce App was created with React",
-    getImageSrc: () => require("../images/react.png"),
-    srcLink:"https://onursfirstreactproject.netlify.app/",
+      "A Real Estate App was created with React ,react-router-dom ",
+    getImageSrc: () => require ("../images/hausdetailedpage.png"),
+    srcLink:"https://github.com/onurtufekci34/kielerimmobilieapp",
   },
   {
-    title: "Calculator with JavaScript",
+    title: "Kieler Tech Shop",
     description:
-      "A basic calculator was created with vanillajs",
-    getImageSrc: () => require("../images/calculator.png"),
-    srcLink:"https://kielercalculator.netlify.app/",
+      "An E-Commerce Web App created with PHP,jQuery,Bootstrap and MySQL",
+    getImageSrc: () => require("../images/kieltechshop.png"),
+    srcLink:"https://github.com/onurtufekci34/KielTechShop",
   },
   {
-    title: "Tik Tac Toe",
+    title: "Kieler Chat App",
     description:
-      "A tik tac toe game was created with javascript ",
-    getImageSrc: () => require("../images/tiktactoe.png"),
-    srcLink:"https://kielertiktactoe.netlify.app/",
+      "A chat app created with React, react-router-dom, Firebase(Authentication,Storage,Database)  ",
+    getImageSrc: () => require("../images/kielerchatapp.png"),
+    srcLink:"https://github.com/onurtufekci34/kielerchatapp",
   },
   {
-    title: "ToDo App",
+    title: "Kieler Little Lemon",
     description:
-      "A ToDo app game was created with javascript",
-    getImageSrc: () => require("../images/todo.png"),
-    srcLink:"https://kielertodoapp.netlify.app/",
+      "A Restaurant Web App with Table Reservation created with React and fakeApi",
+    getImageSrc: () => require("../images/restaurant.png"),
+    srcLink:"https://kielerlittlelemon.netlify.app/",
   },
   {
-    title: "Random Joke Generator",
+    title: "Airbnb Experience",
     description:
-      "A joke generator app game was created with js",
-    getImageSrc: () => require("../images/joke.png"),
-    srcLink:"https://kielerrandomjokegenerator.netlify.app/",
+      "An Airbnb Experience Web App created with React, Fake data and Vite",
+    getImageSrc: () => require("../images/airbnbexample.png"),
+    srcLink:"https://kielerairbnb.netlify.app/",
   },
   {
-    title: "Stopwatch",
+    title: "Kieler Autos",
     description:
-      "A stopwatch app game was created with js",
-    getImageSrc: () => require("../images/stopwatch.png"),
+      "A Vehicle Web App to calculate payment plan created with PHP and some css",
+    getImageSrc: () => require("../images/kielerautos.png"),
     srcLink:"https://kielerstopwatch.netlify.app/",
   },
 ];

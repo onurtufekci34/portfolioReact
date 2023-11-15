@@ -4,9 +4,10 @@ import FullScreenSection from "./FullScreenSection";
 import avatarImage from "../images/1.png";
 
 const greeting = "Hello, I am Onur!";
-const bio1 = "A Frontend Developer";
+const bio1 = "A Self-Taught Frontend Developer";
 const bio2 = "specialised in";
-const bio3 = "REACT"
+const bio3 = "REACT";
+const bio4 = "Tech Stuff: React, Redux, JavaScript, CSS, Bootstrap, Material, Chakra, SASS, APIs, Java, PHP, MySQL, Firebase, Linux"
 
 const LandingSection = () => (
   <FullScreenSection
@@ -26,6 +27,9 @@ const LandingSection = () => (
       </Heading>
       <Heading  as="h2" color="white" textAlign="center" fontSize="xl">
         {bio2} <span className="font-effect-fire" style={{fontSize:"30px"}}>{bio3}</span>
+      </Heading>
+      <Heading as="h2" color="white" textAlign="center" fontSize="xl">
+        {bio4}
       </Heading>
     </VStack>
   </FullScreenSection>
