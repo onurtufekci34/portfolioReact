@@ -3,49 +3,47 @@ import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
 
-
 const projects = [
   {
     title: "Kieler Immobilie",
-    description:
-      "A Real Estate App was created with React ,react-router-dom ",
-    getImageSrc: () => require ("../images/hausdetailedpage.png"),
-    srcLink:"https://github.com/onurtufekci34/kielerimmobilieapp",
+    description: "A Real Estate App was created with React ,react-router-dom ",
+    getImageSrc: () => require("../images/hausdetailedpage.png"),
+    srcLink: "https://github.com/onurtufekci34/kielerimmobilieapp",
   },
   {
     title: "Kieler Tech Shop",
     description:
       "An E-Commerce Web App created with PHP,jQuery,Bootstrap and MySQL",
     getImageSrc: () => require("../images/kieltechshop.png"),
-    srcLink:"https://github.com/onurtufekci34/KielTechShop",
+    srcLink: "https://github.com/onurtufekci34/KielTechShop",
   },
   {
     title: "Kieler Chat App",
     description:
       "A chat app created with React, react-router-dom, Firebase(Authentication,Storage,Database)  ",
     getImageSrc: () => require("../images/kielerchatapp.png"),
-    srcLink:"https://github.com/onurtufekci34/kielerchatapp",
+    srcLink: "https://github.com/onurtufekci34/kielerchatapp",
   },
   {
     title: "Kieler Little Lemon",
     description:
       "A Restaurant Web App with Table Reservation created with React and fakeApi",
     getImageSrc: () => require("../images/restaurant.png"),
-    srcLink:"https://kielerlittlelemon.netlify.app/",
+    srcLink: "https://kielerlittlelemon.netlify.app/",
   },
   {
     title: "Airbnb Experience",
     description:
       "An Airbnb Experience Web App created with React, Fake data and Vite",
     getImageSrc: () => require("../images/airbnbexample.png"),
-    srcLink:"https://kielerairbnb.netlify.app/",
+    srcLink: "https://kielerairbnb.netlify.app/",
   },
   {
     title: "Kieler Autos",
     description:
       "A Vehicle Web App to calculate payment plan created with PHP and some css",
     getImageSrc: () => require("../images/kielerautos.png"),
-    srcLink:"https://kielerstopwatch.netlify.app/",
+    srcLink: "https://kielerstopwatch.netlify.app/",
   },
 ];
 
@@ -65,6 +63,9 @@ const ProjectsSection = () => {
         display="grid"
         gridTemplateColumns="repeat(3,minmax(0,1fr))"
         gridGap={8}
+        boxShadow="dark-lg"
+        p="6"
+        rounded="md"
       >
         {projects.map((project) => (
           <Card
