@@ -1,6 +1,9 @@
 import React from "react";
-import { Avatar, Heading, VStack,Image } from "@chakra-ui/react";
+import { Heading, VStack,Image } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
+import { LazyLoadImage } from 'react-lazy-load-image-component'; // Import LazyLoadImage
+import 'react-lazy-load-image-component/src/effects/blur.css'; // Optional CSS for image transition
+
 import avatarImage from "../images/1.png";
 
 const greeting = "Hello, I am Onur!";
@@ -17,7 +20,14 @@ const LandingSection = () => (
     backgroundColor="#2A4365"
   >
     <VStack spacing={4}>
-      <Image borderRadius="full" boxSize="250px" src={avatarImage} alt="Onur" />
+    <LazyLoadImage
+        effect="blur" // Optional - adds a blur effect while loading
+        src={avatarImage}
+        alt="Onur"
+        width="250px"
+        height="250px"
+        style={{ borderRadius: "50%" }}
+      />
       
       <Heading as="h1" color="white" textAlign="center">
         {greeting}
