@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Kieler Chat App",
     description:
-      "A chat app created with React, react-router-dom, Firebase(Authentication,Storage,Database)  ",
+      "A chat app created with React, react-router-dom, Firebase",
     getImageSrc: () => require("../images/kielerchatapp.png"),
     srcLink: "https://github.com/onurtufekci34/kielerchatapp",
   },
