@@ -2,6 +2,7 @@ import React from "react";
 import FullScreenSection from "./FullScreenSection";
 import { Box, Heading } from "@chakra-ui/react";
 import Card from "./Card";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 const projects = [
   {
@@ -48,6 +49,9 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
+  const columnCount = useBreakpointValue({ base: 1, md: 2, lg: 3 });
+
+
   return (
     <FullScreenSection
       backgroundColor="#14532d"
@@ -61,7 +65,7 @@ const ProjectsSection = () => {
       </Heading>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(3,minmax(0,1fr))"
+        gridTemplateColumns={`repeat(${columnCount}, minmax(0, 1fr))`}
         gridGap={8}
         boxShadow="dark-lg"
         p="6"

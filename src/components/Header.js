@@ -4,10 +4,8 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
-  faMedium,
-  faStackOverflow,
 } from "@fortawesome/free-brands-svg-icons";
-import { Box, HStack } from "@chakra-ui/react";
+import { Box, HStack, Flex } from "@chakra-ui/react";
 
 const socials = [
   {
@@ -29,6 +27,7 @@ const Header = () => {
   const headerRef = useRef(null);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
+  
 
   const handleScroll = () => {
     const currentScrollPos = window.pageYOffset;

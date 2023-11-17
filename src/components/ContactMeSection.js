@@ -75,11 +75,11 @@ const LandingSection = () => {
       py={16}
       spacing={8}
     >
-      <VStack w="1024px" p={32} alignItems="flex-start">
+      <VStack w="100%" p={[4,8,16]} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box maxW="700px" rounded="md" w="100%">
           <form onSubmit={formik.handleSubmit} >
             <VStack spacing={4}>
               <FormControl isInvalid={touched.firstName && errors.firstName}>
