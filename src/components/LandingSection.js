@@ -10,7 +10,7 @@ const greeting = "Hello, I am Onur!";
 const bio1 = "A Self-Taught Frontend Developer";
 const bio2 = "specialised in";
 const bio3 = "REACT";
-const bio4 = "Tech Stack: React, Redux, JavaScript, CSS, Bootstrap, Material, Chakra, SASS, APIs, Java, PHP, MySQL, Firebase, Linux"
+const bio4 = "Tech Stack: React, Redux, JavaScript, CSS, Bootstrap, Material, Chakra, SASS, RestfullAPIs,Postman, Java, PHP, MySQL, Firebase, Linux"
 
 const LandingSection = () => (
   <FullScreenSection
