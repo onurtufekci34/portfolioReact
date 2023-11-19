@@ -25,8 +25,7 @@ const LandingSection = () => (
         effect="blur" // Optional - adds a blur effect while loading
         src={avatarImage}
         alt="Onur"
-        style={{ borderRadius: "50%",marginTop:"2rem",width:"100%",height:"auto" }}
-        
+        style={{ borderRadius: "50%",marginTop:"2rem",width:"100%",height:"auto" }}        
       />
 
       <Heading as="h1" color="white" textAlign="center">
