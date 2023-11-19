@@ -11,7 +11,7 @@ const bio1 = "A Self-Taught Frontend Developer";
 const bio2 = "specialised in";
 const bio3 = "REACT";
 const bio4 =
-  "Tech Stack: React, Redux, JavaScript, CSS, Bootstrap, Material, Chakra, SASS, RESTful API, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
+  "Tech Stack:JavaScript, React, Redux, React Router, CSS, Bootstrap, Material, Chakra, SASS, RESTful API, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
 
 const LandingSection = () => (
   <FullScreenSection
