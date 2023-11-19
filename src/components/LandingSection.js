@@ -20,14 +20,13 @@ const LandingSection = () => (
     isDarkBackground
     backgroundColor="#2A4365"
   >
-    <VStack spacing={4}>
+    <VStack spacing={3}>
       <LazyLoadImage
         effect="blur" // Optional - adds a blur effect while loading
         src={avatarImage}
         alt="Onur"
-        width="250px"
-        height="250px"
-        style={{ borderRadius: "50%" }}
+        style={{ borderRadius: "50%",marginTop:"2rem" }}
+        
       />
 
       <Heading as="h1" color="white" textAlign="center">
