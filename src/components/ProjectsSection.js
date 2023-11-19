@@ -70,6 +70,7 @@ const ProjectsSection = () => {
         boxShadow="dark-lg"
         p="6"
         rounded="md"
+        style={{width:"100%",height:"auto"}}
       >
         {projects.map((project) => (
           <Card
