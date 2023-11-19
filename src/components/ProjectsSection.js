@@ -79,6 +79,8 @@ const ProjectsSection = () => {
             description={project.description}
             imageSrc={project.getImageSrc()}
             srcLink={project.srcLink}
+            width="100%" 
+            height="auto" 
           />
         ))}
       </Box>
