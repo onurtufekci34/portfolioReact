@@ -23,7 +23,7 @@ const projects = [
     description:
       "A chat app created with React, react-router-dom, Firebase",
     getImageSrc: () => require("../images/kielerchatapp.png"),
-    srcLink: "https://github.com/onurtufekci34/kielerchatapp",
+    srcLink: "https://kielerchatapp.netlify.app/",
   },
   {
     title: "Kieler Little Lemon",
