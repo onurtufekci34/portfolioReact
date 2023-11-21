@@ -1,7 +1,6 @@
 import React from "react";
 import { Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Card = ({ title, description, imageSrc,srcLink }) => {
