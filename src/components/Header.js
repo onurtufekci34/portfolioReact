@@ -5,7 +5,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { Box, HStack, Flex } from "@chakra-ui/react";
+import { Box, HStack } from "@chakra-ui/react";
 
 const socials = [
   {
