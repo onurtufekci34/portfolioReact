@@ -44,7 +44,7 @@ const projects = [
     description:
       "A Vehicle Web App to calculate payment plan created with PHP and some css",
     getImageSrc: () => require("../images/kielerautos.png"),
-    srcLink: "https://kielerstopwatch.netlify.app/",
+    srcLink: "https://github.com/onurtufekci34/kielerautos",
   },
 ];
 
