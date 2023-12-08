@@ -11,7 +11,7 @@ const bio1 = "A Self-Taught Software Engineer";
 const bio2 = "specialised in";
 const bio3 = "Fullstack Web Development";
 const bio4 =
-  "Tech Stack:JavaScript, React, Redux, React Router, CSS, Bootstrap, Material, Chakra, SASS, RESTful API, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
+  "Tech Stack:JavaScript, React, Redux, React Router, NodeJs, MongoDB, ExpressJs CSS, Bootstrap, Material, Chakra, SASS, RESTful APIs, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
 
 const LandingSection = () => (
   <FullScreenSection
@@ -22,10 +22,15 @@ const LandingSection = () => (
   >
     <VStack spacing={3}>
       <LazyLoadImage
-        effect="blur" 
+        effect="blur"
         src={avatarImage}
         alt="Onur"
-        style={{ borderRadius: "50%",marginTop:"2rem",width:"100%",height:"auto" }}        
+        style={{
+          borderRadius: "50%",
+          marginTop: "2rem",
+          width: "100%",
+          height: "auto",
+        }}
       />
 
       <Heading as="h1" color="white" textAlign="center">
