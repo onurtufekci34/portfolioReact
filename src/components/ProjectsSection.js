@@ -6,11 +6,25 @@ import { useBreakpointValue } from "@chakra-ui/react";
 
 const projects = [
   {
-    title: "Kieler Immobilie",
-    description: "A Real Estate App was created with React ,react-router-dom ",
+    title: "Kieler Note App",
+    description: "A Note Web App created with React, Firebase, ReactRouter ",
+    getImageSrc: () => require("../images/kielernoteapp.png"),
+    srcLink: "https://kielernoteapp.netlify.app/",
+  },
+  {
+    title: "Kieler Chat App",
+    description: "A chat app created with React, ReactRouter, Firebase",
+    getImageSrc: () => require("../images/kielerchatapp.png"),
+    srcLink: "https://kielerchatapp.netlify.app/",
+  },
+  {
+    title: "Kieler Immobilie App",
+    description: "A Real Estate App was created with React, ReactRouter ",
     getImageSrc: () => require("../images/hausdetailedpage.png"),
     srcLink: "https://github.com/onurtufekci34/kielerimmobilieapp",
   },
+
+ 
   {
     title: "Kieler Tech Shop",
     description:
@@ -19,26 +33,13 @@ const projects = [
     srcLink: "https://github.com/onurtufekci34/KielTechShop",
   },
   {
-    title: "Kieler Chat App",
-    description:
-      "A chat app created with React, react-router-dom, Firebase",
-    getImageSrc: () => require("../images/kielerchatapp.png"),
-    srcLink: "https://kielerchatapp.netlify.app/",
-  },
-  {
     title: "Kieler Little Lemon",
     description:
       "A Restaurant Web App with Table Reservation created with React and fakeApi",
     getImageSrc: () => require("../images/restaurant.png"),
     srcLink: "https://kielerlittlelemon.netlify.app/",
   },
-  {
-    title: "Airbnb Experience",
-    description:
-      "An Airbnb Experience Web App created with React, Fake data and Vite",
-    getImageSrc: () => require("../images/airbnbexample.png"),
-    srcLink: "https://kielerairbnb.netlify.app/",
-  },
+
   {
     title: "Kieler Autos",
     description:
@@ -50,7 +51,6 @@ const projects = [
 
 const ProjectsSection = () => {
   const columnCount = useBreakpointValue({ base: 1, md: 2, lg: 3 });
-
 
   return (
     <FullScreenSection
@@ -70,7 +70,7 @@ const ProjectsSection = () => {
         boxShadow="dark-lg"
         p="6"
         rounded="md"
-        style={{width:"100%",height:"auto"}}
+        style={{ width: "100%", height: "auto" }}
       >
         {projects.map((project) => (
           <Card
@@ -79,8 +79,8 @@ const ProjectsSection = () => {
             description={project.description}
             imageSrc={project.getImageSrc()}
             srcLink={project.srcLink}
-            width="100%" 
-            height="auto" 
+            width="100%"
+            height="auto"
           />
         ))}
       </Box>

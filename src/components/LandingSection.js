@@ -7,9 +7,9 @@ import "react-lazy-load-image-component/src/effects/blur.css"; // Optional CSS f
 import avatarImage from "../images/1.png";
 
 const greeting = "Hello, I am Onur!";
-const bio1 = "A Self-Taught Frontend Developer";
+const bio1 = "A Self-Taught Software Engineer";
 const bio2 = "specialised in";
-const bio3 = "REACT";
+const bio3 = "Fullstack Web Development";
 const bio4 =
   "Tech Stack:JavaScript, React, Redux, React Router, CSS, Bootstrap, Material, Chakra, SASS, RESTful API, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
 
@@ -22,7 +22,7 @@ const LandingSection = () => (
   >
     <VStack spacing={3}>
       <LazyLoadImage
-        effect="blur" // Optional - adds a blur effect while loading
+        effect="blur" 
         src={avatarImage}
         alt="Onur"
         style={{ borderRadius: "50%",marginTop:"2rem",width:"100%",height:"auto" }}        
