@@ -7,10 +7,9 @@ import "react-lazy-load-image-component/src/effects/blur.css"; // Optional CSS f
 import avatarImage from "../images/1.png";
 
 const greeting = "Hello, I am Onur!";
-const bio1 = "A Self-Taught Software Engineer";
-const bio2 = "specialised in";
-const bio3 = "Fullstack Web Development";
-const bio4 =
+const bio1 =
+  "A Fullstack Web Developer with a background in electrical engineering and projeckt management.";
+const bio2 =
   "Tech Stack:JavaScript, React, Redux, React Router, NodeJs, MongoDB, ExpressJs CSS, Bootstrap, Material, Chakra, SASS, RESTful APIs, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
 
 const LandingSection = () => (
@@ -40,13 +39,7 @@ const LandingSection = () => (
         {bio1}
       </Heading>
       <Heading as="h2" color="white" textAlign="center" fontSize="xl">
-        {bio2}{" "}
-        <span className="font-effect-fire" style={{ fontSize: "30px" }}>
-          {bio3}
-        </span>
-      </Heading>
-      <Heading as="h2" color="white" textAlign="center" fontSize="xl">
-        {bio4}
+        {bio2}
       </Heading>
     </VStack>
   </FullScreenSection>
