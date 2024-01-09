@@ -8,7 +8,7 @@ import avatarImage from "../images/1.png";
 
 const greeting = "Hello, I am Onur!";
 const bio1 =
-  "A Fullstack Web Developer with a background in electrical engineering and projeckt management.";
+  "A Fullstack Web Developer with a background in electrical engineering and project management.";
 const bio2 =
   "Tech Stack:JavaScript, React, Redux, React Router, NodeJs, MongoDB, ExpressJs CSS, Bootstrap, Material, Chakra, SASS, RESTful APIs, Postman, Vite, Java, PHP, MySQL, Firebase, VsCode, Linux";
 
